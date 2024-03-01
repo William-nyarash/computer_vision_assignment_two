@@ -7,7 +7,7 @@ def emotions(facial_features):
   return facial_features[0]["dominant_emotion"]
 
 def main():
-  image =cv2.imread("johnsample.png")
+  image =cv2.imread("allan.jpg")
 #   convert the image to gray scale
   grayed_image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 #    cascade the imega inorder to define the parameters used to capture the face
